@@ -1,12 +1,11 @@
 package LR2.functions;
 
-/*В пакете functions создать класс TabulatedFunction, объект которого должен описывать табулированную функцию.
-Для хранения данных о точках должен использоваться массив типа FunctionPoint. При этом разумно организовать работу с массивом так, чтобы точки в нём были всегда упорядочены по значению координаты x.
-В классе должны быть описаны следующие конструкторы:
-TabulatedFunction(double leftX, double rightX, int pointsCount) – создаёт объект табулированной функции по заданным левой и правой границе области определения, а также количеству точек для табулирования (значения функции в точках при этом следует считать равными 0);
-TabulatedFunction(double leftX, double rightX, double[] values) – аналогичен предыдущему конструктору, но вместо количества точек получает значения функции в виде массива.
-В обоих случаях точки должны создаваться через равные интервалы по x..
-*/
-
 public class TabulatedFunction {
+    TabulatedFunction(double leftX, double rightX, int pointsCount) {
+
+    }
+
+    TabulatedFunction(double leftX, double rightX, double[] values) {
+
+    }
 }
